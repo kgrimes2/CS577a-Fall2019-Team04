@@ -21,6 +21,9 @@ jobs:
       - run:
           name: "test"
           command: "npm test"
+      - store_artifacts:
+          path: "CS577a-Fall2019-Team04"
+          destination: "CS577a-Fall2019-Team04"
   deploy:
     machine:
       enabled: true

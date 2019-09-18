@@ -25,6 +25,7 @@ jobs:
     machine:
       enabled: true
     steps:
+      - add_ssh_keys
       - run:
           name: "Deploy over SSH"
           command: |

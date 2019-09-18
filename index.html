@@ -8,13 +8,13 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Welcome to CS577 Fa2019 Team #4</title>
+  <title>CS577 F19 Team #4</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom styles for this template -->
-  <link href="css/simple-sidebar.css" rel="stylesheet">
+  <link href="./css/simple-sidebar.css" rel="stylesheet">
 
 </head>
 
@@ -24,14 +24,12 @@
 
     <!-- Sidebar -->
     <div class="bg-light border-right" id="sidebar-wrapper">
-      <div class="sidebar-heading">Start Bootstrap </div>
+      <div class="sidebar-heading">CS577 F19 Team #4</div>
       <div class="list-group list-group-flush">
-        <a href="#" class="list-group-item list-group-item-action bg-light">Dashboard</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Shortcuts</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Overview</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Events</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Profile</a>
-        <a href="#" class="list-group-item list-group-item-action bg-light">Status</a>
+        <a href="#about" class="list-group-item list-group-item-action bg-light">About</a>
+        <a href="#our-team" class="list-group-item list-group-item-action bg-light">Our Team</a>
+        <a href="#documents" class="list-group-item list-group-item-action bg-light">Documents</a>
+        <a href="#links" class="list-group-item list-group-item-action bg-light">Links</a>
       </div>
     </div>
     <!-- /#sidebar-wrapper -->
@@ -42,7 +40,8 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <button class="btn btn-primary" id="menu-toggle">Toggle Menu</button>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -52,27 +51,155 @@
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+                <a class="nav-link" href="./PR/index.html">PR</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="./CMN/index.html">CMN</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Exploration/index.html">Exploration</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Valuation/index.html">Valuation</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Foundations/index.html">Foundations</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./Development/index.html">Development</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./FD/index.html">FD</a>
             </li>
           </ul>
         </div>
       </nav>
 
+      <a name="welcome"></a>
       <div class="container-fluid">
-        <h1 class="mt-4">Simple Sidebar</h1>
-        <p>The starting state of the menu will appear collapsed on smaller screens, and will appear non-collapsed on larger screens. When toggled using the button below, the menu will change.</p>
-        <p>Make sure to keep all page content within the <code>#page-content-wrapper</code>. The top navbar is optional, and just for demonstration. Just create an element with the <code>#menu-toggle</code> ID which will toggle the menu when clicked.</p>
+        <h2 class="mt-4">Welcome!</h1>
+          <p>This site stores deliverables, meeting notes, and other important documents relevant to the team's work.
+          </p>
+      </div>
+
+      <a name="about"></a>
+      <div class="container-fluid">
+        <h3 class="mt-4">About</h3>
+        <p>Team #4 has been tasked to work with <a href="http://fieldprogress.us">FieldProgress</a> in their efforts to
+          advance democracy
+          with smart mapping tooling.</p>
+        <p>Specifically, we will design and implement an algorithm that optimized turf cutting within precincts.
+          Ultimately, our algorithm
+          will be integrated into FieldProgress's platform.</p>
+      </div>
+
+      <a name="our-team"></a>
+      <div class="container-fluid person-wrapper">
+        <h3 class="mt-4" style="margin-bottom:1.5rem;">Our Team</h3>
+        <div class="row">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140"
+              alt="Akanshka Diwedy headshot" />
+            <h4>Akanshka Diwedy</h4>
+            <p>Responsible for successful delivery of X and Y. Collects vintage mousepads.</p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="./img/kevin_grimes.jpg" width="140" height="140"
+              alt="Kevin Grimes headshot" />
+            <h4>Kevin Grimes</h4>
+            <p>Responsible for maintaining class website, as well as X role and Y role. Hates Mondays.</p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140"
+              alt="Aishwarya Joisa headshot" />
+            <h4>Aishwarya Joisa</h4>
+            <p>Has roles X, as well as Y and Z. Enjoys long walks on the beach.</p>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140"
+              alt="Mayank Kulkarni headshot" />
+            <h4>Mayank Kulkarni</h4>
+            <p>Does X thing and Y thing. Loves Mondays.</p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140"
+              alt="Madhavi Shantharam headshot" />
+            <h4>Madhavi Shantharam</h4>
+            <p>Performs X, Y, and Z. Loves being stuck in LA traffic.</p>
+          </div>
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140" alt="Uche Uba headshot" />
+            <h4>Uche Uba</h4>
+            <p>Performs tasks X and Y. Hasn't seen <i>The Office</i>.</p>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140"
+              alt="Sahithi Velma headshot" />
+            <h4>Sahithi Velma</h4>
+            <p>Responsible for X and Y. Won't stop believin'.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <a name="documents"></a>
+      <div class="container-fluid">
+        <h3 class="mt-4">Documents</h3>
+        <div class="row">
+            <div class="col-4" style="margin-left:auto;">
+              <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action active" id="list-progress-report-list" data-toggle="list" href="#list-progress-report" role="tab" aria-controls="progress-report">Progress Report</a>
+                <a class="list-group-item list-group-item-action" id="list-client-meeting-notes-list" data-toggle="list" href="#list-client-meeting-notes" role="tab" aria-controls="client-meeting-notes">Client Meeting Notes</a>
+                <a class="list-group-item list-group-item-action" id="list-exploration-phase-list" data-toggle="list" href="#list-exploration-phase" role="tab" aria-controls="exploration-phase">Exploration Phase</a>
+                <a class="list-group-item list-group-item-action" id="list-valuation-phase-list" data-toggle="list" href="#list-valuation-phase" role="tab" aria-controls="valuation-phase">Valuation Phase</a>
+                <a class="list-group-item list-group-item-action" id="list-foundations-phase-list" data-toggle="list" href="#list-foundations-phase" role="tab" aria-controls="foundations-phase">Foundations Phase</a>
+                <a class="list-group-item list-group-item-action" id="list-development-phase-list" data-toggle="list" href="#list-development-phase" role="tab" aria-controls="development-phase">Development Phase</a>
+                <a class="list-group-item list-group-item-action" id="list-final-deliverables-list" data-toggle="list" href="#list-final-deliverables" role="tab" aria-controls="final-deliverables">Final Deliverables</a>
+              </div>
+            </div>
+            <div class="col-7" style="background-color:white;padding:12px;margin-right:auto;">
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="list-progress-report" role="tabpanel" aria-labelledby="list-progress-report-list">
+                  <p>No Progress Report documents yet! Please choose another tab.</p>
+                </div>
+                <div class="tab-pane fade" id="list-client-meeting-notes" role="tabpanel" aria-labelledby="list-client-meeting-notes-list">
+                  <ul>
+                    <li><a href="./CMN/Initial Customer Meeting.pdf">Initial Customer Meeting.pdf</a></li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="list-exploration-phase" role="tabpanel" aria-labelledby="list-exploration-phase-list">
+                    <p>No Exploration Phase documents yet! Please choose another tab.</p>
+                </div>
+                <div class="tab-pane fade" id="list-valuation-phase" role="tabpanel" aria-labelledby="list-valuation-phase-list">
+                    <p>No Valuation Phase documents yet! Please choose another tab.</p>
+                </div>
+                <div class="tab-pane fade" id="list-foundations-phase" role="tabpanel" aria-labelledby="list-foundations-phase-list">
+                    <p>No Foundations Phase documents yet! Please choose another tab.</p>
+                </div>
+                <div class="tab-pane fade" id="list-development-phase" role="tabpanel" aria-labelledby="list-development-phase-list">
+                    <p>No Development Phase documents yet! Please choose another tab.</p>
+                </div>
+                <div class="tab-pane fade" id="list-final-deliverables" role="tabpanel" aria-labelledby="list-final-deliverables-list">
+                    <p>No Final Deliverables documents yet! Please choose another tab.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+      <a name="links"></a>
+      <div class="container-fluid">
+        <h3 class="mt-4">Links</h3>
+          <ul>
+            <li><a href="https://github.com/kgrimes2/CS577a-Fall2019-Team04">Site Github</a> (private, contact team for access)</li>
+            <li><a href="https://greenbay.usc.edu/csci577/fall2019">CSCI577 F19 Home</a></li>
+          </ul>
       </div>
     </div>
     <!-- /#page-content-wrapper -->
@@ -86,7 +213,7 @@
 
   <!-- Menu Toggle Script -->
   <script>
-    $("#menu-toggle").click(function(e) {
+    $("#menu-toggle").click(function (e) {
       e.preventDefault();
       $("#wrapper").toggleClass("toggled");
     });

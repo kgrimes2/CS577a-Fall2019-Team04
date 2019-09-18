@@ -4,7 +4,33 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-simple-sidebar/blob/master/LICENSE)
  */
 body {
+  background-color: rgba(242, 241, 232, 1) !important;
   overflow-x: hidden;
+  font-family: "Open Sans", sans-serif;
+}
+
+.rounded-circle {
+  margin-bottom: 8px;
+}
+
+.border-right {
+  border-right: 1px solid rgba(13, 105, 139, 0.2) !important;
+}
+
+.border-bottom {
+  border-bottom: 1px solid rgba(13, 105, 139, 0.2) !important;
+}
+
+.bg-light {
+  background-color: rgba(13, 105, 139, 0.2) !important;
+}
+
+.person-wrapper {
+  margin-top: 1.5rem;
+  text-align: center;
+  background-color: rgba(227,66,52,.2);
+  border: 1px solid rgb(227,66,52);
+  width: 86% !important;
 }
 
 #sidebar-wrapper {

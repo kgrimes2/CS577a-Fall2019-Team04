@@ -21,18 +21,19 @@ jobs:
       - run:
           name: "test"
           command: "npm test"
-      - store_artifacts:
-          path: "."
-          destination: "CS577a-Fall2019-Team04"
+      - persist_to_workspace:
+          root: "."
   deploy:
     machine:
       enabled: true
     steps:
+      - attach_workspace:
+          at: "/tmp/workspace"
       - add_ssh_keys
       - run:
           name: "Deploy over SSH"
           command: |
-            scp -v -r CS577a-Fall2019-Team04/* $SSH_USER@$SSH_HOST:/Users/f19team04/.
+            scp -v -r /tmp/workspace/* $SSH_USER@$SSH_HOST:/Users/f19team04/.
 workflows:
   version: 2
   build-and-deploy:

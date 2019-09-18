@@ -35,7 +35,7 @@ jobs:
       - run:
           name: "Deploy over SSH"
           command: |
-            scp -r /tmp/workspace/project/* $SSH_USER@$SSH_HOST:/Users/f19team04/.
+            rsync -rb /tmp/workspace/project/* $SSH_USER@$SSH_HOST:/Users/f19team04/.
 workflows:
   version: 2
   build-and-deploy:

@@ -22,7 +22,7 @@ jobs:
           name: "test"
           command: "npm test"
       - store_artifacts:
-          path: "CS577a-Fall2019-Team04"
+          path: "."
           destination: "CS577a-Fall2019-Team04"
   deploy:
     machine:

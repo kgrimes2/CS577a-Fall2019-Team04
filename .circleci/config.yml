@@ -36,6 +36,10 @@ jobs:
           name: "Deploy over SSH"
           command: |
             rsync -rva --progress --delete /tmp/workspace/project/* $SSH_USER@$SSH_HOST:/Users/f19team04/.
+      - run:
+          name: "Update all file permissions"
+          command: |
+            ssh $SSH_USER@$SSH_HOST 'chmod -R 755 /Users/f19team04/'
 workflows:
   version: 2
   build-and-deploy:

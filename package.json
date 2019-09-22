@@ -37,6 +37,10 @@
         "del": "^4.1.1",
         "gulp": "4.0.2",
         "merge-stream": "2.0.0",
-        "nyc": "^14.1.1"
+        "nyc": "^14.1.1",
+        "pre-commit": "^1.2.2"
+    },
+    "pre-commit": {
+        "run": "test"
     }
 }

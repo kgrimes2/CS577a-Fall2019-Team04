@@ -1,6 +1,8 @@
 # Introduction
 
-This is the code for the team #4 website for CS577 F19.
+This is the code for [the team #4 website for CS577 F19](https://greenbay.usc.edu/csci577/fall2019/projects/team04/).
+
+This project is built by CircleCI, and any commit to the `master` branch will trigger deployment to the production site. Please use caution when merging with `master`!
 
 ## Status
 
@@ -13,9 +15,9 @@ This is the code for the team #4 website for CS577 F19.
 
 ```
 .
-├── .circleci [1](#circleci-def)
-├── .git [2](#git-def)
-├── .gitignore [3](#gitignore-def)
+├── .circleci [1]
+├── .git [2]
+├── .gitignore [3]
 ├── CMN
 ├── Development
 ├── Exploration
@@ -24,28 +26,49 @@ This is the code for the team #4 website for CS577 F19.
 ├── PR
 ├── README.md
 ├── Valuation
-├── css [4](#css-def)
-├── images [5](#images-def)
+├── css [4]
+├── images [5]
 ├── index.html
-├── node_modules [6](#nodemodules-def)
-├── package-lock.json [7](#packagelock-def)
-├── package.json [7](#packagelock-def)
-└── vendor [6](#nodemodules-def)
+├── node_modules [6]
+├── package-lock.json [7]
+├── package.json [7]
+└── vendor [6]
 ```
 
-<a id="circleci-def"></a>[1] CI/CD files for easy deployment to USC server
+[1] CI/CD files for easy deployment to USC server
 
-<a id="git-def"></a>[2] Version control files
+[2] Version control files
 
-<a id="gitignore-def"></a>[3] Files to be excluded by Git
+[3] Files to be excluded by Git
 
-<a id="css-def"></a>[4] Stylesheets for the website to look nice
+[4] Stylesheets for the website to look nice
 
-<a id="images-def"></a>[5] Various images for the website, including team member headshots
+[5] Various images for the website, including team member headshots
 
-<a id="nodemodules-def"></a>[6] JavaScript dependencies to make building the site easier
+[6] JavaScript dependencies to make building the site easier
 
-<a id="packagelock-def"></a>[7] Determines which dependencies to include in project
+[7] Determines which dependencies to include in project
+
+## Building
+
+1. Get the code:
+
+```bash
+$ git clone git@github.com:kgrimes2/CS577a-Fall2019-Team04.git
+$ cd CS577a-Fall2019-Team04
+```
+
+2. Build
+
+```bash
+$ npm install
+```
+
+3. Test
+
+```bash
+$ npm test
+```
 
 ## Contributing
 

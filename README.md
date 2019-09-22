@@ -9,6 +9,23 @@ This is the code for the team #4 website for CS577 F19.
 [![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-simple-sidebar/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-simple-sidebar)
 [![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-simple-sidebar/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-simple-sidebar?type=dev)
 
+## Contents
+
+```
+.
+├── CMN
+├── Development
+├── Exploration
+├── FD
+├── Foundations
+├── PR
+├── Valuation
+├── css (contains stylesheets)
+├── images (contains images)
+├── node_modules (contains JavaScript dependencies)
+└── vendor (also contains JavaScript dependencies)
+```
+
 ## Contributing
 
 1. Fork the code

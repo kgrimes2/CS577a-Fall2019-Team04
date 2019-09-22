@@ -16,6 +16,12 @@
   <!-- Custom styles for this template -->
   <link href="./css/simple-sidebar.css" rel="stylesheet">
 
+  <script>
+    function sendEmail(addr) {
+      window.location = "mailto:" + addr;
+    }
+  </script>
+
 </head>
 
 <body>
@@ -77,9 +83,9 @@
 
       <a name="welcome"></a>
       <div class="container-fluid">
-        <h2 class="mt-4">Welcome!</h1>
-          <p>This site stores deliverables, meeting notes, and other important documents relevant to the team's work.
-          </p>
+        <h2 class="mt-4">Welcome!</h2>
+        <p>This site stores deliverables, meeting notes, and other important documents relevant to the team's work.</p>
+        
       </div>
 
       <a name="about"></a>
@@ -100,52 +106,49 @@
           <div class="col-lg-4">
             <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140"
               alt="Akanshka Diwedy headshot" />
-            <h4>Akanshka Diwedy</h4>
-            <p>Responsible for successful delivery of X and Y. Collects vintage mousepads.</p>
+            <h4>Akanksha Diwedy <img class="email-button" src="./img/e-mail-envelope.png" onclick="sendEmail('diwedy@usc.edu');"/></h4>
+            <p>Operational Concept Engineer</p>
           </div>
           <div class="col-lg-4">
             <img class="rounded-circle" src="./img/kevin_grimes.jpg" width="140" height="140"
               alt="Kevin Grimes headshot" />
-            <h4>Kevin Grimes</h4>
-            <p>Responsible for maintaining class website, as well as X role and Y role. Hates Mondays.</p>
+            <h4>Kevin Grimes <img class="email-button" src="./img/e-mail-envelope.png" onclick="sendEmail('kgrimes@usc.edu');"/></h4>
+            <p>Quality Focal Point, IIV&V</p>
           </div>
           <div class="col-lg-4">
             <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140"
               alt="Aishwarya Joisa headshot" />
-            <h4>Aishwarya Joisa</h4>
-            <p>Has roles X, as well as Y and Z. Enjoys long walks on the beach.</p>
+            <h4>Aishwarya Joisa <img class="email-button" src="./img/e-mail-envelope.png" onclick="sendEmail('joisa@usc.edu');"/></h4>
+            <p>Feasibility Analyst</p>
           </div>
         </div>
         <div class="row">
-
           <div class="col-lg-4">
             <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140"
               alt="Mayank Kulkarni headshot" />
-            <h4>Mayank Kulkarni</h4>
-            <p>Does X thing and Y thing. Loves Mondays.</p>
+            <h4>Mayank Kulkarni <img class="email-button" src="./img/e-mail-envelope.png" onclick="sendEmail('mayankrk@usc.edu');"/></h4>
+            <p>Requirements Engineer</p>
           </div>
           <div class="col-lg-4">
             <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140"
               alt="Madhavi Shantharam headshot" />
-            <h4>Madhavi Shantharam</h4>
-            <p>Performs X, Y, and Z. Loves being stuck in LA traffic.</p>
+            <h4>Madhavi Shantharam <img class="email-button" src="./img/e-mail-envelope.png" onclick="sendEmail('mbangalo@usc.edu');"/></h4>
+            <p>Life Cycle Planner</p>
           </div>
           <div class="col-lg-4">
             <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140" alt="Uche Uba headshot" />
-            <h4>Uche Uba</h4>
-            <p>Performs tasks X and Y. Hasn't seen <i>The Office</i>.</p>
+            <h4>Uche Uba <img class="email-button" src="./img/e-mail-envelope.png" onclick="sendEmail('uuba@usc.edu');"/></h4>
+            <p>Project Manager</p>
           </div>
         </div>
         <div class="row">
-
           <div class="col-lg-4">
             <img class="rounded-circle" src="./img/fmissing.png" width="140" height="140"
               alt="Sahithi Velma headshot" />
-            <h4>Sahithi Velma</h4>
-            <p>Responsible for X and Y. Won't stop believin'.</p>
+            <h4>Sahithi Velma <img class="email-button" src="./img/e-mail-envelope.png" onclick="sendEmail('velma@usc.edu');"/></h4>
+            <p>Software Architect</p>
           </div>
         </div>
-
       </div>
 
       <a name="documents"></a>
@@ -220,5 +223,9 @@
   </script>
 
 </body>
+
+<footer>
+  <p>E-mail icon made by Freepik from <a href="flaticon.com">flaticon.com</a></p>
+</footer>
 
 </html>
